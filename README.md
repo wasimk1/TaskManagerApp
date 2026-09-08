@@ -1,59 +1,184 @@
-# TaskManagerApp
+# 📝 Task Manager App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+A simple **Task Manager Application built with Angular** for learning and practicing Angular fundamentals.
 
-## Development server
+This project focuses on understanding Angular concepts such as components, data binding, event handling, directives, routing, and basic task management functionality.
 
-To start a local development server, run:
+---
+
+## 🎯 Project Purpose
+
+The main purpose of this project is to improve my understanding of **Angular** by building a small practical application.
+
+Through this project, I am practicing:
+
+- Angular Components
+- Angular Templates
+- Interpolation
+- Property Binding
+- Event Binding
+- Two-Way Data Binding
+- Angular Control Flow (`@if`, `@for`)
+- Angular Routing
+- TypeScript
+- Component Communication
+- Form Handling
+- Basic UI Styling
+
+---
+
+## 🚀 Features
+
+- ➕ Add a new task
+- 📋 View task list
+- 🗑️ Delete tasks
+- ✅ Mark tasks as completed
+- ⏳ Track pending tasks
+- 🎨 Responsive and simple user interface
+
+> Features may be added gradually as I continue learning Angular.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology  | Purpose                     |
+| ----------- | --------------------------- |
+| Angular     | Frontend Framework          |
+| TypeScript  | Programming Language        |
+| HTML5       | Application Structure       |
+| CSS3        | Styling                     |
+| Angular CLI | Project Development & Build |
+
+---
+
+## 📂 Project Structure
+
+```text
+task-manager-app/
+│
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── app.ts
+│   │   ├── app.html
+│   │   ├── app.css
+│   │   └── app.routes.ts
+│   │
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
+│
+├── public/
+├── angular.json
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+### 2. Navigate to the project
+
+```bash
+cd task-manager-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the application
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open your browser and visit:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+The application will automatically reload whenever you modify the source files.
 
-```bash
-ng generate --help
+---
+
+## 🧠 Angular Concepts Practiced
+
+### Components
+
+Breaking the application into reusable Angular components.
+
+### Data Binding
+
+Practicing different Angular data-binding techniques:
+
+```text
+Interpolation       → {{ value }}
+Property Binding    → [property]="value"
+Event Binding       → (click)="method()"
+Two-Way Binding     → [(ngModel)]="value"
 ```
 
-## Building
+### Control Flow
 
-To build the project run:
+Using Angular's modern template control flow:
 
-```bash
-ng build
+```text
+@if
+@else
+@for
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Routing
 
-## Running unit tests
+Using Angular Router to navigate between different sections of the application.
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 📈 Learning Progress
 
-## Running end-to-end tests
+This project will continue to evolve as I learn more Angular concepts.
 
-For end-to-end (e2e) testing, run:
+Future learning may include:
 
-```bash
-ng e2e
-```
+- Angular Services
+- Reactive Forms
+- Form Validation
+- Signals
+- Local Storage
+- Search & Filtering
+- Custom Pipes
+- Route Parameters
+- Lazy Loading
+- HTTP Client & API Integration
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 👨‍💻 Author
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Wasim Khan**
+
+Full Stack .NET Developer | Learning Angular
+
+GitHub: `wasimk1`
+
+---
+
+## 📌 Note
+
+This project is created **for learning and practice purposes**. It currently focuses only on the Angular frontend and does not include any backend or database integration.
+
+---
+
+> **Code by day, debug by night. 🌙**
